@@ -1,0 +1,1024 @@
+.Homepage_Homepage {
+  width: 1500px;
+  height: 2183px;
+  background: rgba(239, 242, 241, 1);
+}
+.Homepage_Homepage .Rectangle1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1500px;
+  height: 674px;
+  background: rgba(59, 93, 80, 1);
+}
+.Homepage_Homepage .BabyOwls {
+  position: absolute;
+  left: 109px;
+  top: 49px;
+  width: 162px;
+  height: 39px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.727272033691406px;
+}
+.Homepage_Homepage .InnovativeDaycareForWorkingParents {
+  position: absolute;
+  left: 101px;
+  top: 207px;
+  width: 528px;
+  height: 130px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 65.3522720336914px;
+}
+.Homepage_Homepage .WhyChooseUs {
+  position: absolute;
+  left: 152px;
+  top: 904px;
+  width: 261px;
+  height: 41px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+}
+.Homepage_Homepage
+  .WithintheBabyOwlsfamilywecreateanenvironmentofhonestyandtrustbycommunicatingopenlyandauthenticallywithoneanotherandrespectingtheopinionsofthosewithwhomweworkWelistentotheneedsandconcernsofthoseweserveandrespondwithasenseofurgency {
+  position: absolute;
+  left: 152px;
+  top: 972px;
+  width: 444px;
+  height: 144px;
+  color: rgba(106, 106, 106, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.Homepage_Homepage .Button {
+  position: absolute;
+  left: 109px;
+  top: 483px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
+.Homepage_Homepage .Button .Rectangle2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 50px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 30px;
+}
+.Homepage_Homepage .Button .RegisterNow {
+  position: absolute;
+  left: 24px;
+  top: 11px;
+  width: 103px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.Homepage_Homepage .Navigation {
+  position: absolute;
+  left: 697px;
+  top: 60px;
+  width: 615px;
+  height: 31px;
+}
+.Homepage_Homepage .Navigation .Home {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 46px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .Login {
+  position: absolute;
+  left: 104px;
+  top: 0px;
+  width: 43px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .Signup {
+  position: absolute;
+  left: 191px;
+  top: 0px;
+  width: 58px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .Gallery {
+  position: absolute;
+  left: 293px;
+  top: 0px;
+  width: 54px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .Contactus {
+  position: absolute;
+  left: 391px;
+  top: 0px;
+  width: 84px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .AdminLogin {
+  position: absolute;
+  left: 519px;
+  top: 0px;
+  width: 96px;
+  height: 19px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.363636016845703px;
+}
+.Homepage_Homepage .Navigation .Rectangle3 {
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 45px;
+  height: 5px;
+}
+.Homepage_Homepage .Dot {
+  position: absolute;
+  left: 662px;
+  top: 820px;
+  width: 296px;
+  height: 196px;
+}
+.Homepage_Homepage .Dot .Dotted {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 296px;
+  height: 196px;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse3 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse4 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse5 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse6 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse7 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse8 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group12 .Ellipse9 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 {
+  position: absolute;
+  left: 0px;
+  top: 26.727264404296875px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse10 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse11 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse12 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse13 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse14 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse15 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse16 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group18 .Ellipse17 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 {
+  position: absolute;
+  left: 0px;
+  top: 53.45452880859375px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse18 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse19 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0.000030517578125px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse20 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse21 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse22 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse23 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse24 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group17 .Ellipse25 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0.000030517578125px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 {
+  position: absolute;
+  left: 0px;
+  top: 80.18182373046875px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse26 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse27 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse28 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse29 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse30 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse31 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse32 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group16 .Ellipse33 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 {
+  position: absolute;
+  left: 0px;
+  top: 106.90908813476562px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse34 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse35 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse36 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse37 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse38 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse39 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse40 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group15 .Ellipse41 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 {
+  position: absolute;
+  left: 0px;
+  top: 133.6363525390625px;
+  width: 293.740478515625px;
+  height: 8.909088134765625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse42 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse43 {
+  position: absolute;
+  left: 40.6717529296875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse44 {
+  position: absolute;
+  left: 81.343505859375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse45 {
+  position: absolute;
+  left: 122.0152587890625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse46 {
+  position: absolute;
+  left: 162.68701171875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse47 {
+  position: absolute;
+  left: 203.3587646484375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse48 {
+  position: absolute;
+  left: 244.030517578125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group14 .Ellipse49 {
+  position: absolute;
+  left: 284.7022705078125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 {
+  position: absolute;
+  left: 0px;
+  top: 160.3636474609375px;
+  width: 296px;
+  height: 35.6363525390625px;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse50 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse51 {
+  position: absolute;
+  left: 41.801513671875px;
+  top: 0px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse52 {
+  position: absolute;
+  left: 83.60302734375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse53 {
+  position: absolute;
+  left: 124.2747802734375px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse54 {
+  position: absolute;
+  left: 164.946533203125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse55 {
+  position: absolute;
+  left: 205.6182861328125px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse56 {
+  position: absolute;
+  left: 246.2900390625px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse57 {
+  position: absolute;
+  left: 286.9617919921875px;
+  top: 0px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse58 {
+  position: absolute;
+  left: 0px;
+  top: 26.727264404296875px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse59 {
+  position: absolute;
+  left: 41.801513671875px;
+  top: 26.727264404296875px;
+  width: 10.16796875px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse60 {
+  position: absolute;
+  left: 83.60302734375px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse61 {
+  position: absolute;
+  left: 124.2747802734375px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse62 {
+  position: absolute;
+  left: 164.946533203125px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse63 {
+  position: absolute;
+  left: 205.6182861328125px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse64 {
+  position: absolute;
+  left: 246.2900390625px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Dot .Dotted .Group13 .Ellipse65 {
+  position: absolute;
+  left: 286.9617919921875px;
+  top: 26.727264404296875px;
+  width: 9.0382080078125px;
+  height: 8.909088134765625px;
+  background: rgba(249, 191, 41, 1);
+  border-radius: 50%;
+}
+.Homepage_Homepage .Blogsection {
+  position: absolute;
+  left: 180px;
+  top: 1491px;
+  width: 1140px;
+  height: 478.8028564453125px;
+}
+.Homepage_Homepage .Blogsection .RecentBlog {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 197px;
+  height: 44.2137451171875px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+}
+.Homepage_Homepage .Blogsection .Group24 {
+  position: absolute;
+  left: 0px;
+  top: 83.03564453125px;
+  width: 360px;
+  height: 395.7672119140625px;
+}
+.Homepage_Homepage .Blogsection .Group24 .UnderstandingChildDevelopment {
+  position: absolute;
+  left: 0px;
+  top: 315.966796875px;
+  width: 271.319580078125px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.784090042114258px;
+}
+.Homepage_Homepage .Blogsection .Group24 .byNanaAmaonNov18th2022 {
+  position: absolute;
+  left: 0px;
+  top: 370.96435546875px;
+  width: 297.712646484375px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94318199157715px;
+}
+.Homepage_Homepage .Blogsection .Group24 .Maskgroup {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+}
+.Homepage_Homepage .Blogsection .Group24 .Maskgroup .Rectangle11 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 10px;
+}
+.Homepage_Homepage .Blogsection .Group24 .Maskgroup .post11 {
+  position: absolute;
+  left: -17.947265625px;
+  top: 0px;
+  width: 382.1700439453125px;
+  height: 268.517822265625px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Homepage_Homepage .Blogsection .Group25 {
+  position: absolute;
+  left: 390px;
+  top: 83.03564453125px;
+  width: 360px;
+  height: 370.96435546875px;
+}
+.Homepage_Homepage .Blogsection .Group25 .Parenting101 {
+  position: absolute;
+  left: 0px;
+  top: 315.966796875px;
+  width: 271.319580078125px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.784090042114258px;
+}
+.Homepage_Homepage .Blogsection .Group25 .byNanaAmaonNov18th2022_1 {
+  position: absolute;
+  left: 0px;
+  top: 346.1614990234375px;
+  width: 297.712646484375px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94318199157715px;
+}
+.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+}
+.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 .Rectangle11_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 10px;
+}
+.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 .post21 {
+  position: absolute;
+  left: -10px;
+  top: -6.4703369140625px;
+  width: 380px;
+  height: 282.5367431640625px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Homepage_Homepage .Blogsection .Group26 {
+  position: absolute;
+  left: 780px;
+  top: 83.03564453125px;
+  width: 360px;
+  height: 370.96435546875px;
+}
+.Homepage_Homepage .Blogsection .Group26 .TipsforWorkingParents {
+  position: absolute;
+  left: 0px;
+  top: 315.966796875px;
+  width: 271.31964111328125px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.784090042114258px;
+}
+.Homepage_Homepage .Blogsection .Group26 .byNanaAmaonNov18th2022_2 {
+  position: absolute;
+  left: 0px;
+  top: 346.1614990234375px;
+  width: 297.712646484375px;
+  height: 24.8028564453125px;
+  color: rgba(47, 47, 47, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94318199157715px;
+}
+.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+}
+.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 .Rectangle11_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 360px;
+  height: 268.517822265625px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 10px;
+}
+.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 .post31 {
+  position: absolute;
+  left: -16px;
+  top: -8.6270751953125px;
+  width: 384px;
+  height: 285.77197265625px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Homepage_Homepage .Line2 {
+  position: absolute;
+  left: 180px;
+  top: 4854px;
+  width: 1140px;
+  height: 0px;
+  border: 1px solid
+    rgba(239.00000095367432, 242.00000077486038, 241.00000083446503, 1);
+}
+.Homepage_Homepage .image1 {
+  position: absolute;
+  left: 697px;
+  top: 139px;
+  width: 803px;
+  height: 535px;
+  object-fit: cover;
+  overflow: hidden;
+}
