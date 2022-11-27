@@ -38,10 +38,6 @@ function App() {
         />
       </Routes>
     </BrowserRouter>
-
-    // <div className="App">
-    //   <Home />
-    // </div>
   );
 }
 
