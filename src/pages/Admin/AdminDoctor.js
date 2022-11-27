@@ -20,7 +20,7 @@ function AdminDoctor() {
       (response) => {
         setDoctorList(
           DoctorList.filter((val) => {
-            return val.doctor_id != doctor_id;
+            return val.doctor_id !== doctor_id;
           })
         );
       }

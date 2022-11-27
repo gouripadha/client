@@ -4,6 +4,8 @@ import line2 from "../images/Homepage_Line2.png";
 import care from "../images/care.jpg";
 import "./Home.css";
 
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div className="Homepage_Homepage">
@@ -25,7 +27,11 @@ function Home() {
       </span>
       <div className="Navigation">
         <link></link>
-        <span className="Home">Home</span>
+        {/* use link tag of browser router dom*/}
+        <Link to="/home">
+          <span className="Home">Home</span>
+        </Link>
+
         <span className="Login">Login</span>
         <span className="Signup">Sign up</span>
         <span className="Gallery">Gallery</span>

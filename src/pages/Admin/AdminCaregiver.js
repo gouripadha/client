@@ -20,7 +20,7 @@ function AdminCaregiver() {
       (response) => {
         setCaregiverList(
           CaregiverList.filter((val) => {
-            return val.caregiver_id != caregiver_id;
+            return val.caregiver_id !== caregiver_id;
           })
         );
       }

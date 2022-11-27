@@ -20,7 +20,7 @@ function AdminTeacher() {
       (response) => {
         setTeacherList(
           TeacherList.filter((val) => {
-            return val.teacher_id != teacher_id;
+            return val.teacher_id !== teacher_id;
           })
         );
       }
