@@ -22,7 +22,8 @@ function AdminCreateCaregiver() {
   };
 
   return (
-    <div className="AdminCreateDailyActivities_AdminCreateDailyActivities">
+    <div className="AdminCreateCaregiver">
+      <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
       <Link to="/admin/caregiver">
         <span className="CareTakers">Caregivers</span>
@@ -39,6 +40,7 @@ function AdminCreateCaregiver() {
       <Link to="/admin/children">
         <span className="Children">Children</span>
       </Link>
+      <span className="CreateANewDailyActivity">Add A Caregiver</span>
 
       <div className="info">
         <label>Caregiver Name</label>

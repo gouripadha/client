@@ -1,23 +1,8 @@
 import React from "react";
 import "./Signup.css";
 import sgn from "../../images/Signup_image3.png";
-import { useState } from "react";
-import Axios from "axios";
 
 function Signup() {
-  const [ParentName, setParentName] = useState("");
-  const [email, setemail] = useState("");
-  const [Specialization, setSpecialization] = useState("");
-
-  const addDoctor = () => {
-    Axios.post("http://localhost:3001/createdoctor", {
-      DoctorName: DoctorName,
-      Qualification: Qualification,
-      Specialization: Specialization,
-    }).then(() => {
-      console.log("success");
-    });
-  };
   return (
     <div className="Signup_Signup">
       <div className="Group2137">

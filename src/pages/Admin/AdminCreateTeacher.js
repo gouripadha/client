@@ -2,6 +2,7 @@ import React from "react";
 import "./AdminCreateTeacher.css";
 import { useState } from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 function AdminCreateTeacher() {
   const [TeacherName, setTeacherName] = useState("");
@@ -21,15 +22,25 @@ function AdminCreateTeacher() {
   };
 
   return (
-    <div className="AdminCreateDailyActivities_AdminCreateDailyActivities">
+    <div className="AdminCreateTecaher">
       <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
-      <span className="Teachers">Teachers</span>
-      <span className="CareTakers">Caregivers</span>
-      <span className="Doctors">Doctors</span>
-      <span className="DailyActivities">Daily Activities</span>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
+      <Link to="/admin/teacher">
+        <span className="Teachers">Teachers</span>
+      </Link>
+      <Link to="/admin/doctor">
+        <span className="Doctors">Doctors</span>
+      </Link>
+      <Link to="/admin/dailyactivities">
+        <span className="DailyActivities">Daily Activities</span>
+      </Link>
+      <Link to="/admin/children">
+        <span className="Children">Children</span>
+      </Link>
       <span className="CreateANewDailyActivity">Add A New Teacher</span>
-      <span className="Children">Children</span>
 
       <div className="info">
         <label>Teacher Name</label>

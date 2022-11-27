@@ -29,22 +29,25 @@ function AdminDailyActivities() {
   };
 
   return (
-    <div className="AdminDailyActivities_AdminDailyActivities">
+    <div className="AdminDailyActivities">
       <div className="Rectangle6" />
-      <span className="BabyOwls">BabyOwls.</span>
+      <div className="BabyOwls">BabyOwls.</div>
       <Link to="/admin/teacher">
-        <span className="Teachers">Teachers</span>
+        <div className="Teachers">Teachers</div>
       </Link>
       <Link to="/admin/caregiver">
-        <span className="CareTakers">Caregivers</span>
+        <div className="CareTakers">Caregivers</div>
       </Link>
       <Link to="/admin/doctor">
-        <span className="Doctors">Doctors</span>
+        <div className="Doctors">Doctors</div>
       </Link>
-      <span className="DailyActivities">Daily Activities</span>
-      <span className="DailyActivities_1">Daily Activities</span>
-      <span className="Children">Children</span>
+      <div className="DailyActivities">Daily Activities</div>
+
+      <Link to="/admin/children">
+        <span className="Children">Children</span>
+      </Link>
       <div className="spacer" />
+      <div className="heading"> Daily Activities</div>
 
       {ActivityList.map((val, key) => {
         return (
@@ -72,7 +75,9 @@ function AdminDailyActivities() {
         );
       })}
 
-      <button className="Addbutton">Add Activity</button>
+      <Link to="/admin/create/dailyactivities">
+        <button className="Addbutton">Add Activity</button>
+      </Link>
     </div>
   );
 }

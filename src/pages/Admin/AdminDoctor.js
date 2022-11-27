@@ -29,7 +29,8 @@ function AdminDoctor() {
   };
 
   return (
-    <div className="AdminDailyActivities_AdminDailyActivities">
+    <div className="AdminDoctors">
+      <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
       <Link to="/admin/caregiver">
         <span className="CareTakers">Caregivers</span>
@@ -74,7 +75,9 @@ function AdminDoctor() {
         );
       })}
 
-      <button className="Addbutton">Add Doctor</button>
+      <Link to="/admin/create/doctor">
+        <button className="Addbutton">Add Doctor</button>
+      </Link>
     </div>
   );
 }

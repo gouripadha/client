@@ -11,7 +11,9 @@ import AdminCreateTeacher from "./pages/Admin/AdminCreateTeacher";
 import AdminCreateDailyActivities from "./pages/Admin/AdminCreateDailyActivities";
 import AdminDoctor from "./pages/Admin/AdminDoctor";
 import AdminTeacher from "./pages/Admin/AdminTeacher";
+import AdminDailyActivites from "./pages/Admin/AdminDailyActivities";
 import Signup from "./pages/User/Signup";
+import AdminDailyActivities from "./pages/Admin/AdminDailyActivities";
 
 function App() {
   return (
@@ -26,15 +28,15 @@ function App() {
           element={<AdminCreateCaregiver />}
         />
         <Route
-          path="/admin/create/dailyactivites"
-          element={<AdminCreateDailyActivites />}
+          path="/admin/dailyactivities"
+          element={<AdminDailyActivites />}
         />
         <Route path="/admin/create/doctor" element={<AdminCreateDoctor />} />
         <Route path="/admin/create/teacher" element={<AdminCreateTeacher />} />
         <Route path="/admin/doctor" element={<AdminDoctor />} />
         <Route path="/admin/teacher" element={<AdminTeacher />} />
         <Route
-          path="/admin/dailyactivities"
+          path="/admin/create/dailyactivities"
           element={<AdminCreateDailyActivities />}
         />
       </Routes>

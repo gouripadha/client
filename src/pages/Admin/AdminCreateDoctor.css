@@ -1,4 +1,4 @@
-.AdminCreateDailyActivities_AdminCreateDailyActivities {
+.AdminCreateDoctor {
   position: relative;
   left: 0px;
   top: 0px;
@@ -9,7 +9,7 @@
   background: rgba(243, 245, 249, 1);
   border-radius: 14.399999999999999px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .Rectangle6 {
+.AdminCreateDoctor .Rectangle6 {
   position: absolute;
   left: 0px;
   top: -190.07999999999998px;
@@ -18,7 +18,7 @@
   background: rgba(252, 251, 255, 1);
   border-radius: 14.399999999999999px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .BabyOwls {
+.AdminCreateDoctor .BabyOwls {
   position: absolute;
   left: 23.759999999999998px;
   top: 37.44px;
@@ -30,7 +30,7 @@
   font-weight: 500;
   line-height: 27.883635864257812px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .Teachers {
+.AdminCreateDoctor .Teachers {
   position: absolute;
   left: 26.589814453124998px;
   top: 206.64px;
@@ -44,7 +44,7 @@
   font-weight: 600;
   line-height: 34.56px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .CareTakers {
+.AdminCreateDoctor .CareTakers {
   position: absolute;
   left: 24.17255859375px;
   top: 149.04px;
@@ -58,7 +58,7 @@
   font-weight: 600;
   line-height: 34.56px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .Doctors {
+.AdminCreateDoctor .Doctors {
   position: absolute;
   left: 26.589814453124998px;
   top: 264.24px;
@@ -72,7 +72,7 @@
   font-weight: 600;
   line-height: 34.56px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .DailyActivities {
+.AdminCreateDoctor .DailyActivities {
   position: absolute;
   left: 26.589814453124998px;
   top: 321.84px;
@@ -86,8 +86,7 @@
   font-weight: 600;
   line-height: 34.56px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities
-  .CreateANewDailyActivity {
+.AdminCreateDoctor .CreateANewDailyActivity {
   position: absolute;
   left: 620px;
   top: 92.16px;
@@ -101,7 +100,7 @@
   font-weight: 600;
   line-height: 51.839999999999996px;
 }
-.AdminCreateDailyActivities_AdminCreateDailyActivities .Children {
+.AdminCreateDoctor .Children {
   position: absolute;
   left: 26.589814453124998px;
   top: 379.44px;
@@ -116,17 +115,15 @@
   line-height: 34.56px;
 }
 
-.AdminCreateDailyActivities_AdminCreateDailyActivities .info {
-  position: absolute;
-  top: 150px;
+.AdminCreateDoctor .info {
+  margin-left: 600px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
-.AdminCreateDailyActivities_AdminCreateDailyActivities .info input {
+.AdminCreateDoctor .info input {
   width: 300px;
   height: 50px;
   font-size: 20px;
@@ -134,7 +131,7 @@
   margin: 5px;
 }
 
-.AdminCreateDailyActivities_AdminCreateDailyActivities .info button {
+.AdminCreateDoctor .info button {
   top: 40px;
   width: 300px;
   height: 50px;
@@ -146,7 +143,7 @@
   border-radius: 5px;
 }
 
-.AdminCreateDailyActivities_AdminCreateDailyActivities .info button:hover {
+.AdminCreateDoctor .info button:hover {
   cursor: pointer;
   background-color: #184836;
   color: white;

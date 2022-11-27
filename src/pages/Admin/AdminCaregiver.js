@@ -29,12 +29,13 @@ function AdminCaregiver() {
   };
 
   return (
-    <div className="AdminDailyActivities_AdminDailyActivities">
+    <div className="AdminCaregiver">
       <div className="Rectangle6" />
-      <span className="BabyOwls">BabyOwls.</span>
       <Link to="/admin/caregiver">
         <span className="CareTakers">Caregivers</span>
       </Link>
+      <span className="BabyOwls">BabyOwls.</span>
+
       <Link to="/admin/teacher">
         <span className="Teachers">Teachers</span>
       </Link>
@@ -47,6 +48,8 @@ function AdminCaregiver() {
       <Link to="/admin/children">
         <span className="Children">Children</span>
       </Link>
+
+      <span className="DailyActivities_1">Caregivers</span>
 
       {CaregiverList.map((val, key) => {
         return (

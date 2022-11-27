@@ -28,7 +28,7 @@ function AdminTeacher() {
   };
 
   return (
-    <div className="AdminDailyActivities_AdminDailyActivities">
+    <div className="AdminTeacher">
       <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
       <span className="Teachers">Teachers</span>
@@ -75,7 +75,9 @@ function AdminTeacher() {
         );
       })}
 
-      <button className="Addbutton">Add Teacher</button>
+      <Link to="/admin/create/teacher">
+        <button className="Addbutton">Add Teacher</button>
+      </Link>
     </div>
   );
 }
