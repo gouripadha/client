@@ -11,6 +11,7 @@ import AdminCreateTeacher from "./pages/Admin/AdminCreateTeacher";
 import AdminCreateDailyActivities from "./pages/Admin/AdminCreateDailyActivities";
 import AdminDoctor from "./pages/Admin/AdminDoctor";
 import AdminTeacher from "./pages/Admin/AdminTeacher";
+import Signup from "./pages/User/Signup";
 
 function App() {
   return (

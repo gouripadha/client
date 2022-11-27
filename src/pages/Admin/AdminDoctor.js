@@ -48,6 +48,8 @@ function AdminDoctor() {
       </Link>
       <div className="spacer" />
 
+      <span className="DailyActivities_1">Doctors</span>
+
       {DoctorList.map((val, key) => {
         return (
           <div className="individual">
