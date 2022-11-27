@@ -11,33 +11,38 @@ import AdminCreateTeacher from "./pages/Admin/AdminCreateTeacher";
 import AdminCreateDailyActivities from "./pages/Admin/AdminCreateDailyActivities";
 import AdminDoctor from "./pages/Admin/AdminDoctor";
 import AdminTeacher from "./pages/Admin/AdminTeacher";
+import Signup from "./pages/User/Signup";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/admin/" element={<Admin />} />
-        <Route path="/admin/caregiver" element={<AdminCaregiver />} />
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/admin/" element={<Admin />} />
+    //     <Route path="/admin/caregiver" element={<AdminCaregiver />} />
 
-        <Route
-          path="/admin/create/caregiver"
-          element={<AdminCreateCaregiver />}
-        />
-        <Route
-          path="/admin/create/dailyactivites"
-          element={<AdminCreateDailyActivites />}
-        />
-        <Route path="/admin/create/doctor" element={<AdminCreateDoctor />} />
-        <Route path="/admin/create/teacher" element={<AdminCreateTeacher />} />
-        <Route path="/admin/doctor" element={<AdminDoctor />} />
-        <Route path="/admin/teacher" element={<AdminTeacher />} />
-        <Route
-          path="/admin/dailyactivities"
-          element={<AdminCreateDailyActivities />}
-        />
-      </Routes>
-    </BrowserRouter>
+    //     <Route
+    //       path="/admin/create/caregiver"
+    //       element={<AdminCreateCaregiver />}
+    //     />
+    //     <Route
+    //       path="/admin/create/dailyactivites"
+    //       element={<AdminCreateDailyActivites />}
+    //     />
+    //     <Route path="/admin/create/doctor" element={<AdminCreateDoctor />} />
+    //     <Route path="/admin/create/teacher" element={<AdminCreateTeacher />} />
+    //     <Route path="/admin/doctor" element={<AdminDoctor />} />
+    //     <Route path="/admin/teacher" element={<AdminTeacher />} />
+    //     <Route
+    //       path="/admin/dailyactivities"
+    //       element={<AdminCreateDailyActivities />}
+    //     />
+    //   </Routes>
+    // </BrowserRouter>
+
+    <div className="App">
+      <Signup />
+    </div>
 
     // <div className="App">
     //   <Home />

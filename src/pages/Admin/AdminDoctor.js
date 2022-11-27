@@ -35,9 +35,10 @@ function AdminDoctor() {
       <span className="CareTakers">Caregivers</span>
       <span className="Doctors">Doctors</span>
       <span className="DailyActivities">Daily Activities</span>
-      <span className="DailyActivities_1">Doctors</span>
       <span className="Children">Children</span>
       <div className="spacer" />
+
+      <span className="DailyActivities_1">Doctors</span>
 
       {DoctorList.map((val, key) => {
         return (
