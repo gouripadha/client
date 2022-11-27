@@ -2,6 +2,7 @@ import React from "react";
 import "./AdminCreateCaregiver.css";
 import { useState } from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 function AdminCreateCaregiver() {
   const [CaregiverName, setCaregiverName] = useState("");
@@ -22,14 +23,22 @@ function AdminCreateCaregiver() {
 
   return (
     <div className="AdminCreateDailyActivities_AdminCreateDailyActivities">
-      <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
-      <span className="Teachers">Teachers</span>
-      <span className="CareTakers">Caregivers</span>
-      <span className="Doctors">Doctors</span>
-      <span className="DailyActivities">Daily Activities</span>
-      <span className="CreateANewDailyActivity">Add A New Caretaker</span>
-      <span className="Children">Children</span>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
+      <Link to="/admin/teacher">
+        <span className="Teachers">Teachers</span>
+      </Link>
+      <Link to="/admin/doctor">
+        <span className="Doctors">Doctors</span>
+      </Link>
+      <Link to="/admin/dailyactivities">
+        <span className="DailyActivities">Daily Activities</span>
+      </Link>
+      <Link to="/admin/children">
+        <span className="Children">Children</span>
+      </Link>
 
       <div className="info">
         <label>Caregiver Name</label>
