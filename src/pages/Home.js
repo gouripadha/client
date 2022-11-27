@@ -28,14 +28,21 @@ function Home() {
       <div className="Navigation">
         <link></link>
         {/* use link tag of browser router dom*/}
-        <Link to="/home">
+        <Link to="/">
           <span className="Home">Home</span>
         </Link>
-
-        <span className="Login">Login</span>
-        <span className="Signup">Sign up</span>
-        <span className="Gallery">Gallery</span>
-        <span className="AdminLogin">Admin Login</span>
+        <Link to="/">
+          <span className="Login">Login</span>
+        </Link>
+        <Link to="/">
+          <span className="Signup">Sign up</span>
+        </Link>
+        <Link to="/">
+          <span className="Gallery">Gallery</span>
+        </Link>
+        <Link to="/">
+          <span className="AdminLogin">Admin Login</span>
+        </Link>
       </div>
       <div className="Dot">
         <div className="Dotted">

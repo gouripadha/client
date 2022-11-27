@@ -2,6 +2,7 @@ import React from "react";
 import "./AdminCreateDailyActivities.css";
 import { useState } from "react";
 import Axios from "axios";
+import { Link } from "react-router-dom";
 
 export default function AdminCreateDailyActivities() {
   const [ActivityName, setActivityName] = useState("");
@@ -22,10 +23,18 @@ export default function AdminCreateDailyActivities() {
     <div className="AdminCreateDailyActivities_AdminCreateDailyActivities">
       <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
-      <span className="Teachers">Teachers</span>
-      <span className="CareTakers">Caregivers</span>
-      <span className="Doctors">Doctors</span>
-      <span className="DailyActivities">Daily Activities</span>
+      <Link to="/admin/teacher">
+        <span className="Teachers">Teachers</span>
+      </Link>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
+      <Link to="/admin/doctor">
+        <span className="Doctors">Doctors</span>
+      </Link>
+      <Link to="/admin/dailyactivities">
+        <span className="DailyActivities">Daily Activities</span>
+      </Link>
       <span className="CreateANewDailyActivity">
         Create A New Daily Activity
       </span>

@@ -2,6 +2,7 @@ import React from "react";
 import "./AdminDoctor.css";
 import Axios from "axios";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function AdminDoctor() {
   const [DoctorList, setDoctorList] = useState([]);
@@ -29,13 +30,22 @@ function AdminDoctor() {
 
   return (
     <div className="AdminDailyActivities_AdminDailyActivities">
-      <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
-      <span className="Teachers">Teachers</span>
-      <span className="CareTakers">Caregivers</span>
-      <span className="Doctors">Doctors</span>
-      <span className="DailyActivities">Daily Activities</span>
-      <span className="Children">Children</span>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
+      <Link to="/admin/teacher">
+        <span className="Teachers">Teachers</span>
+      </Link>
+      <Link to="/admin/doctor">
+        <span className="Doctors">Doctors</span>
+      </Link>
+      <Link to="/admin/dailyactivities">
+        <span className="DailyActivities">Daily Activities</span>
+      </Link>
+      <Link to="/admin/children">
+        <span className="Children">Children</span>
+      </Link>
       <div className="spacer" />
 
       <span className="DailyActivities_1">Doctors</span>
