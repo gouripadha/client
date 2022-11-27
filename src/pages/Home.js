@@ -1,5 +1,8 @@
 import React from "react";
-import "./home.css";
+import img1 from "../images/Homepage_image1.png";
+import line2 from "../images/Homepage_Line2.png";
+import care from "../images/care.jpg";
+import "./Home.css";
 
 function Home() {
   return (
@@ -25,12 +28,7 @@ function Home() {
         <span className="Login">Login</span>
         <span className="Signup">Sign up</span>
         <span className="Gallery">Gallery</span>
-        <span className="Contactus">Contact us</span>
         <span className="AdminLogin">Admin Login</span>
-        <img
-          className="Rectangle3"
-          src="client\src\images\Homepage_Rectangle3.png"
-        />
       </div>
       <div className="Dot">
         <div className="Dotted">
@@ -114,44 +112,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="Blogsection">
-        <span className="RecentBlog">Recent Blog</span>
-        <div className="Group24">
-          <span className="UnderstandingChildDevelopment">
-            Understanding Child Development
-          </span>
-          <span className="byNanaAmaonNov18th2022">
-            by Nana Ama on Nov 18th, 2022
-          </span>
-          <div className="Maskgroup">
-            <div className="Rectangle11" />
-          </div>
-        </div>
-        <div className="Group25">
-          <span className="Parenting101">
-            Parenting 101
-            <br />
-          </span>
-          <span className="byNanaAmaonNov18th2022_1">
-            by Nana Ama on Nov 18th, 2022
-          </span>
-          <div className="Maskgroup_1">
-            <div className="Rectangle11_1" />
-          </div>
-        </div>
-        <div className="Group26">
-          <span className="TipsforWorkingParents">
-            Tips for Working Parents
-            <br />
-          </span>
-          <span className="byNanaAmaonNov18th2022_2">
-            by Nana Ama on Nov 18th, 2022
-          </span>
-          <div className="Maskgroup_2">
-            <div className="Rectangle11_2" />
-          </div>
-        </div>
-      </div>
+      <img className="Line2" src={line2} />
+      <img className="image1" src={img1} />
+      <img className="icar" src={care} />
     </div>
   );
 }

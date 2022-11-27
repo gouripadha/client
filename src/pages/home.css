@@ -1,6 +1,6 @@
 .Homepage_Homepage {
   width: 1500px;
-  height: 2183px;
+  height: 1437px;
   background: rgba(239, 242, 241, 1);
 }
 .Homepage_Homepage .Rectangle1 {
@@ -96,8 +96,8 @@
   position: absolute;
   left: 697px;
   top: 60px;
-  width: 615px;
-  height: 31px;
+  width: 487px;
+  height: 19px;
 }
 .Homepage_Homepage .Navigation .Home {
   position: absolute;
@@ -147,21 +147,9 @@
   font-weight: 500;
   line-height: 19.363636016845703px;
 }
-.Homepage_Homepage .Navigation .Contactus {
-  position: absolute;
-  left: 391px;
-  top: 0px;
-  width: 84px;
-  height: 19px;
-  color: rgba(255, 255, 255, 1);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.363636016845703px;
-}
 .Homepage_Homepage .Navigation .AdminLogin {
   position: absolute;
-  left: 519px;
+  left: 391px;
   top: 0px;
   width: 96px;
   height: 19px;
@@ -170,13 +158,6 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 19.363636016845703px;
-}
-.Homepage_Homepage .Navigation .Rectangle3 {
-  position: absolute;
-  left: 0px;
-  top: 26px;
-  width: 45px;
-  height: 5px;
 }
 .Homepage_Homepage .Dot {
   position: absolute;
@@ -817,193 +798,6 @@
   background: rgba(249, 191, 41, 1);
   border-radius: 50%;
 }
-.Homepage_Homepage .Blogsection {
-  position: absolute;
-  left: 180px;
-  top: 1491px;
-  width: 1140px;
-  height: 478.8028564453125px;
-}
-.Homepage_Homepage .Blogsection .RecentBlog {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 197px;
-  height: 44.2137451171875px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 41px;
-}
-.Homepage_Homepage .Blogsection .Group24 {
-  position: absolute;
-  left: 0px;
-  top: 83.03564453125px;
-  width: 360px;
-  height: 395.7672119140625px;
-}
-.Homepage_Homepage .Blogsection .Group24 .UnderstandingChildDevelopment {
-  position: absolute;
-  left: 0px;
-  top: 315.966796875px;
-  width: 271.319580078125px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21.784090042114258px;
-}
-.Homepage_Homepage .Blogsection .Group24 .byNanaAmaonNov18th2022 {
-  position: absolute;
-  left: 0px;
-  top: 370.96435546875px;
-  width: 297.712646484375px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 16.94318199157715px;
-}
-.Homepage_Homepage .Blogsection .Group24 .Maskgroup {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-}
-.Homepage_Homepage .Blogsection .Group24 .Maskgroup .Rectangle11 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-  background: rgba(217, 217, 217, 1);
-  border-radius: 10px;
-}
-.Homepage_Homepage .Blogsection .Group24 .Maskgroup .post11 {
-  position: absolute;
-  left: -17.947265625px;
-  top: 0px;
-  width: 382.1700439453125px;
-  height: 268.517822265625px;
-  object-fit: cover;
-  overflow: hidden;
-}
-.Homepage_Homepage .Blogsection .Group25 {
-  position: absolute;
-  left: 390px;
-  top: 83.03564453125px;
-  width: 360px;
-  height: 370.96435546875px;
-}
-.Homepage_Homepage .Blogsection .Group25 .Parenting101 {
-  position: absolute;
-  left: 0px;
-  top: 315.966796875px;
-  width: 271.319580078125px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21.784090042114258px;
-}
-.Homepage_Homepage .Blogsection .Group25 .byNanaAmaonNov18th2022_1 {
-  position: absolute;
-  left: 0px;
-  top: 346.1614990234375px;
-  width: 297.712646484375px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 16.94318199157715px;
-}
-.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-}
-.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 .Rectangle11_1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-  background: rgba(217, 217, 217, 1);
-  border-radius: 10px;
-}
-.Homepage_Homepage .Blogsection .Group25 .Maskgroup_1 .post21 {
-  position: absolute;
-  left: -10px;
-  top: -6.4703369140625px;
-  width: 380px;
-  height: 282.5367431640625px;
-  object-fit: cover;
-  overflow: hidden;
-}
-.Homepage_Homepage .Blogsection .Group26 {
-  position: absolute;
-  left: 780px;
-  top: 83.03564453125px;
-  width: 360px;
-  height: 370.96435546875px;
-}
-.Homepage_Homepage .Blogsection .Group26 .TipsforWorkingParents {
-  position: absolute;
-  left: 0px;
-  top: 315.966796875px;
-  width: 271.31964111328125px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 21.784090042114258px;
-}
-.Homepage_Homepage .Blogsection .Group26 .byNanaAmaonNov18th2022_2 {
-  position: absolute;
-  left: 0px;
-  top: 346.1614990234375px;
-  width: 297.712646484375px;
-  height: 24.8028564453125px;
-  color: rgba(47, 47, 47, 1);
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 16.94318199157715px;
-}
-.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-}
-.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 .Rectangle11_2 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 360px;
-  height: 268.517822265625px;
-  background: rgba(217, 217, 217, 1);
-  border-radius: 10px;
-}
-.Homepage_Homepage .Blogsection .Group26 .Maskgroup_2 .post31 {
-  position: absolute;
-  left: -16px;
-  top: -8.6270751953125px;
-  width: 384px;
-  height: 285.77197265625px;
-  object-fit: cover;
-  overflow: hidden;
-}
 .Homepage_Homepage .Line2 {
   position: absolute;
   left: 180px;
@@ -1019,6 +813,16 @@
   top: 139px;
   width: 803px;
   height: 535px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.Homepage_Homepage .icar {
+  position: absolute;
+  width: 694px;
+  height: 435px;
+  left: 728px;
+  top: 876px;
+
   object-fit: cover;
   overflow: hidden;
 }

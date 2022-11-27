@@ -1,0 +1,226 @@
+.AdminDailyActivities_AdminDailyActivities {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(243, 245, 249, 1);
+  border-radius: 14.399999999999999px;
+}
+.AdminDailyActivities_AdminDailyActivities .Rectangle6 {
+  position: absolute;
+  left: 0px;
+  top: -190.07999999999998px;
+  width: 218.88px;
+  height: 707.04px;
+  background: rgba(252, 251, 255, 1);
+  border-radius: 14.399999999999999px;
+}
+.AdminDailyActivities_AdminDailyActivities .BabyOwls {
+  position: absolute;
+  left: 23.759999999999998px;
+  top: 37.44px;
+  width: 116.64px;
+  height: 28.08px;
+  color: rgba(59, 93, 80, 1);
+  font-family: Inter;
+  font-size: 23.04px;
+  font-weight: 500;
+  line-height: 27.883635864257812px;
+}
+.AdminDailyActivities_AdminDailyActivities .Teachers {
+  position: absolute;
+  left: 26.58983642578125px;
+  top: 206.64px;
+  width: 13.089887013875815%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.AdminDailyActivities_AdminDailyActivities .CareTakers {
+  position: absolute;
+  left: 24.17258056640625px;
+  top: 149.04px;
+  width: 13.089887013875815%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(249, 191, 41, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.AdminDailyActivities_AdminDailyActivities .Doctors {
+  position: absolute;
+  left: 26.58983642578125px;
+  top: 264.24px;
+  width: 13.089887013875815%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.AdminDailyActivities_AdminDailyActivities .DailyActivities {
+  position: absolute;
+  left: 26.58983642578125px;
+  top: 321.84px;
+  width: 14.887640466651764%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.AdminDailyActivities_AdminDailyActivities .DailyActivities_1 {
+  position: absolute;
+  left: 276.48px;
+  top: 51.839999999999996px;
+  width: 23.042168674698797%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 34.56px;
+  font-weight: 600;
+  line-height: 51.839999999999996px;
+}
+.AdminDailyActivities_AdminDailyActivities .Children {
+  position: absolute;
+  left: 26.58983642578125px;
+  top: 379.44px;
+  width: 14.887640466651764%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+
+.spacer {
+  height: 100px;
+}
+.AdminDailyActivities_AdminDailyActivities .individual {
+  margin-left: 300px;
+  padding-top: 30px;
+
+  margin-top: 20px;
+
+  width: 1039.68px;
+  height: 158.4px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 19.24729293823242px;
+}
+
+.AdminDailyActivities_AdminDailyActivities .individual .ActivityName {
+  width: 800.371328125px;
+  height: 31.2141796875px;
+  display: flex;
+
+  margin-left: 30px;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Doppio One;
+  font-size: 28.870938720703123px;
+  font-weight: 400;
+  line-height: 42.35005645751953px;
+}
+.AdminDailyActivities_AdminDailyActivities
+  .individual
+  .ActivitydescriptionActivitydescriptionActivitydescriptionActivitydescription {
+  width: 989.28px;
+  height: 17.323945312499998px;
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  margin-top: 10px;
+  color: rgba(117, 117, 117, 1);
+  font-family: Content;
+  font-size: 14.399999999999999px;
+  font-weight: 400;
+  line-height: 25.75889923095703px;
+}
+.AdminDailyActivities_AdminDailyActivities .individual .Durationxhrs {
+  width: 1000px;
+  height: 17.28px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 30px;
+  align-items: center;
+  color: rgba(117, 117, 117, 1);
+  font-family: Content;
+  font-size: 17.28px;
+  font-weight: 400;
+  line-height: 30.91067962646484px;
+}
+.AdminDailyActivities_AdminDailyActivities .individual .ActivityIdXXX {
+  width: 900px;
+  height: 17.28px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: rgba(59, 93, 80, 1);
+  font-family: Content;
+  font-size: 17.28px;
+  font-weight: 400;
+  line-height: 30.91067962646484px;
+}
+
+.Addbutton {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background: #f9bf29;
+  margin-left: 900px;
+  border-radius: 15px;
+  color: #fff;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "ABeeZee";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+}
+.Addbutton:hover {
+  cursor: pointer;
+  background: #f8b91a;
+}
+
+.Deletebutton:hover {
+  cursor: pointer;
+  background: #f74963;
+}
+.Deletebutton {
+  background: #ff647c;
+  margin-left: 700px;
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px;
+
+  padding-right: 20px;
+  font-family: "ABeeZee";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
