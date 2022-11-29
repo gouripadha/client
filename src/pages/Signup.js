@@ -1,6 +1,6 @@
 import React from "react";
 import "./Signup.css";
-import sgn from "../../images/Signup_image3.png";
+import sgn from "../images/Signup_image3.png";
 import { useState } from "react";
 import Axios from "axios";
 

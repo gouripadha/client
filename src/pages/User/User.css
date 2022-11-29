@@ -1,0 +1,102 @@
+.User {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(243, 245, 249, 1);
+  border-radius: 14.399999999999999px;
+}
+.User .Rectangle6 {
+  position: absolute;
+  left: 0px;
+  top: -190.07999999999998px;
+  width: 218.88px;
+  height: 707.04px;
+  background: rgba(252, 251, 255, 1);
+  border-radius: 14.399999999999999px;
+}
+.User .BabyOwls {
+  position: absolute;
+  left: 23.759999999999998px;
+  top: 37.44px;
+  width: 116.64px;
+  height: 28.08px;
+  color: rgba(59, 93, 80, 1);
+  font-family: Inter;
+  font-size: 23.04px;
+  font-weight: 500;
+  line-height: 27.883635864257812px;
+}
+.User .Teachers {
+  position: absolute;
+  left: 26.589902343749998px;
+  top: 206.64px;
+  width: 13.089883949861946%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.User .CareTakers {
+  position: absolute;
+  left: 24.17255859375px;
+  top: 149.04px;
+  width: 13.089883949861946%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.User .Doctors {
+  position: absolute;
+  left: 26.589902343749998px;
+  top: 264.24px;
+  width: 13.089883949861946%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.User .DailyActivities {
+  position: absolute;
+  left: 26.589902343749998px;
+  top: 321.84px;
+  width: 14.887638934644828%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
+.User .Children {
+  position: absolute;
+  left: 26.589902343749998px;
+  top: 379.44px;
+  width: 14.887638934644828%;
+  height: 5.103806228373702%;
+  display: flex;
+  align-items: center;
+  color: rgba(59, 93, 80, 1);
+  font-family: Poppins;
+  font-size: 23.04px;
+  font-weight: 600;
+  line-height: 34.56px;
+}
