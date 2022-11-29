@@ -1,10 +1,12 @@
 import React from "react";
 import "./UserLogin.css";
+import { UserContext } from "./../UserContext";
 import sgn from "../images/UserLogin_image4.png";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Axios from "axios";
 import { Navigate, History } from "react-router-dom";
 function UserLogin() {
+  const { user, setUser } = useContext(UserContext);
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   // create onclick function
@@ -16,6 +18,8 @@ function UserLogin() {
       console.log(response.data.value);
       if (response.data.value == 1) {
         alert("Login successful");
+        user.setUser("Email");
+        console.log(user);
       } else alert("Wrong email/password combination!");
     });
   };
