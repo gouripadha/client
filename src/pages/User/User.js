@@ -1,10 +1,8 @@
 import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./User.css";
-import { UserContext } from "./../../UserContext";
 
 function User(props) {
-  const { user, setUser } = useContext(UserContext);
   return (
     <div className="User">
       <div className="Rectangle6" />

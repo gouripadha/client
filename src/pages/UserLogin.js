@@ -1,14 +1,16 @@
 import React from "react";
+
 import "./UserLogin.css";
-import { UserContext } from "./../UserContext";
+// import { UserContext } from "./../UserContext";
 import sgn from "../images/UserLogin_image4.png";
 import { useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import Axios from "axios";
-import { Navigate, History } from "react-router-dom";
 function UserLogin() {
-  const { user, setUser } = useContext(UserContext);
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
+  const navigate = useNavigate();
+
   // create onclick function
   const login = () => {
     Axios.post("http://localhost:3001/login", {
@@ -18,8 +20,9 @@ function UserLogin() {
       console.log(response.data.value);
       if (response.data.value == 1) {
         alert("Login successful");
-        user.setUser("Email");
-        console.log(user);
+        localStorage.setItem("email", Email);
+        // console.log(localStorage.getItem("email"));
+        navigate("/user");
       } else alert("Wrong email/password combination!");
     });
   };

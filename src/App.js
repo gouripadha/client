@@ -16,45 +16,38 @@ import AdminUser from "./pages/Admin/AdminUsers";
 import UserLogin from "./pages/UserLogin";
 import User from "./pages/User/User";
 import Signup from "./pages/Signup";
-import { UserContext } from "./UserContext";
 
 function App() {
   // this is made for the user context
-  const [user, setUser] = useState("");
 
   return (
-    <UserContext.Provider value={(user, setUser)}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/admin/" element={<Admin />} />
-          <Route path="/admin/caregiver" element={<AdminCaregiver />} />
-          <Route
-            path="/admin/create/caregiver"
-            element={<AdminCreateCaregiver />}
-          />
-          <Route
-            path="/admin/dailyactivities"
-            element={<AdminDailyActivites />}
-          />
-          <Route path="/admin/create/doctor" element={<AdminCreateDoctor />} />
-          <Route
-            path="/admin/create/teacher"
-            element={<AdminCreateTeacher />}
-          />
-          <Route path="/admin/doctor" element={<AdminDoctor />} />
-          <Route path="/admin/teacher" element={<AdminTeacher />} />
-          <Route path="/admin/children" element={<AdminUser />} />
-          <Route
-            path="/admin/create/dailyactivities"
-            element={<AdminCreateDailyActivities />}
-          />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/userlogin" element={<UserLogin />} />
-          <Route path="/user" element={<User />} />
-        </Routes>
-      </BrowserRouter>
-    </UserContext.Provider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin/" element={<Admin />} />
+        <Route path="/admin/caregiver" element={<AdminCaregiver />} />
+        <Route
+          path="/admin/create/caregiver"
+          element={<AdminCreateCaregiver />}
+        />
+        <Route
+          path="/admin/dailyactivities"
+          element={<AdminDailyActivites />}
+        />
+        <Route path="/admin/create/doctor" element={<AdminCreateDoctor />} />
+        <Route path="/admin/create/teacher" element={<AdminCreateTeacher />} />
+        <Route path="/admin/doctor" element={<AdminDoctor />} />
+        <Route path="/admin/teacher" element={<AdminTeacher />} />
+        <Route path="/admin/children" element={<AdminUser />} />
+        <Route
+          path="/admin/create/dailyactivities"
+          element={<AdminCreateDailyActivities />}
+        />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/userlogin" element={<UserLogin />} />
+        <Route path="/user" element={<User />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
