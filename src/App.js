@@ -13,7 +13,6 @@ import AdminDoctor from "./pages/Admin/AdminDoctor";
 import AdminTeacher from "./pages/Admin/AdminTeacher";
 import AdminDailyActivites from "./pages/Admin/AdminDailyActivities";
 import Signup from "./pages/User/Signup";
-import AdminDailyActivities from "./pages/Admin/AdminDailyActivities";
 
 function App() {
   return (
@@ -39,6 +38,7 @@ function App() {
           path="/admin/create/dailyactivities"
           element={<AdminCreateDailyActivities />}
         />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </BrowserRouter>
   );
