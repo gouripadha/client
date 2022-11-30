@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import "./User.css";
 
-function User(props) {
+function User() {
   return (
     <div className="User">
       <div className="Rectangle6" />

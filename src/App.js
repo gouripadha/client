@@ -16,6 +16,7 @@ import AdminUser from "./pages/Admin/AdminUsers";
 import UserLogin from "./pages/UserLogin";
 import User from "./pages/User/User";
 import Signup from "./pages/Signup";
+import UserDailyActivities from "./pages/User/UserDailyActivities";
 
 function App() {
   // this is made for the user context
@@ -43,6 +44,8 @@ function App() {
           path="/admin/create/dailyactivities"
           element={<AdminCreateDailyActivities />}
         />
+        <Route path="/user/activities" element={<UserDailyActivities />} />
+
         <Route path="/signup" element={<Signup />} />
         <Route path="/userlogin" element={<UserLogin />} />
         <Route path="/user" element={<User />} />

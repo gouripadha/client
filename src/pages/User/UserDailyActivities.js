@@ -1,9 +1,10 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 function UserDailyActivities() {
   const [ActivityList, setActivityList] = useState([]);
-
   const fetchStudents = async () => {
     const response = await fetch("http://localhost:3001/activities");
     const data = await response.json();
@@ -13,23 +14,27 @@ function UserDailyActivities() {
     fetchStudents();
   }, []);
 
+  if (localStorage.getItem("email") == null) {
+    navigate("/userlogin");
+  }
+
   return (
-    <div className="AdminDailyActivities">
+    <div className="UserDailyActivities">
       <div className="Rectangle6" />
       <div className="BabyOwls">BabyOwls.</div>
-      <Link to="/admin/teacher">
+      <Link to="/user/teacher">
         <div className="Teachers">Teachers</div>
       </Link>
-      <Link to="/admin/caregiver">
+      <Link to="/user/caregiver">
         <div className="CareTakers">Caregivers</div>
       </Link>
-      <Link to="/admin/doctor">
+      <Link to="/user/doctor">
         <div className="Doctors">Doctors</div>
       </Link>
       <div className="DailyActivities">Daily Activities</div>
 
-      <Link to="/admin/children">
-        <span className="Children">Children</span>
+      <Link to="/user/children">
+        <span className="Children">Profile</span>
       </Link>
       <div className="spacer" />
       <div className="heading"> Daily Activities</div>
@@ -45,16 +50,9 @@ function UserDailyActivities() {
             <span className="Durationxhrs">
               Duration: {val.duration_hours} hrs{" "}
             </span>
-            <span className="ActivityIdXXX">
-              Activity Id: A{val.activity_id}
-            </span>
           </div>
         );
       })}
-
-      <Link to="/admin/create/dailyactivities">
-        <button className="Addbutton">Add Activity</button>
-      </Link>
     </div>
   );
 }
