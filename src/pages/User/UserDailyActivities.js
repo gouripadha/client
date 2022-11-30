@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function UserDailyActivities() {
   const [ActivityList, setActivityList] = useState([]);
@@ -15,7 +15,7 @@ function UserDailyActivities() {
   }, []);
 
   if (localStorage.getItem("email") == null) {
-    navigate("/userlogin");
+    Navigate("/userlogin");
   }
 
   return (
