@@ -1,7 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+import "./UserDailyActivities.css";
 
 function UserDailyActivities() {
   const [ActivityList, setActivityList] = useState([]);
@@ -10,12 +12,14 @@ function UserDailyActivities() {
     const data = await response.json();
     setActivityList(data);
   };
+  const navigate = useNavigate();
+
   useEffect(() => {
     fetchStudents();
   }, []);
 
   if (localStorage.getItem("email") == null) {
-    Navigate("/userlogin");
+    navigate("/userlogin");
   }
 
   return (
