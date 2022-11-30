@@ -27,7 +27,6 @@ function Home() {
       </span>
       <div className="Navigation">
         <link></link>
-        {/* use link tag of browser router dom*/}
         <Link to="/">
           <span className="Home">Home</span>
         </Link>

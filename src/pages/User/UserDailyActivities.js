@@ -18,9 +18,11 @@ function UserDailyActivities() {
     fetchStudents();
   }, []);
 
-  if (localStorage.getItem("email") == null) {
-    navigate("/userlogin");
-  }
+  useEffect(() => {
+    if (localStorage.getItem("email") == null) {
+      navigate("/userlogin");
+    }
+  }, []);
 
   return (
     <div className="UserDailyActivities">
