@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../images/Homepage_image1.png";
 import line2 from "../images/Homepage_Line2.png";
 import care from "../images/care.jpg";
-import "./Home.css";
+import "./home.css";
 
 import { Link } from "react-router-dom";
 
