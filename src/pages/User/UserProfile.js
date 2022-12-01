@@ -59,6 +59,7 @@ function UserProfile() {
       <Link to="/user/update">
         <button className="Addbutton">Update Profile</button>
       </Link>
+      <button className="Deletebutton">Log Out</button>
     </div>
   );
 }
