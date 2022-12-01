@@ -16,11 +16,11 @@ function User() {
       <Link to="/user/doctor">
         <span className="Doctors">Doctors</span>
       </Link>
-      <Link to="/user/dailyactivities">
+      <Link to="/user/activities">
         <span className="DailyActivities">Daily Activities</span>
       </Link>
       <Link to="/user/profile">
-        <span className="Children">Children</span>
+        <span className="Children">Profile</span>
       </Link>
     </div>
   );

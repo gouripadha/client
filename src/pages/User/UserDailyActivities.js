@@ -36,13 +36,11 @@ function UserDailyActivities() {
         <div className="Doctors">Doctors</div>
       </Link>
       <div className="DailyActivities">Daily Activities</div>
-
-      <Link to="/user/children">
+      <Link to="/user/profile">
         <span className="Children">Profile</span>
       </Link>
       <div className="spacer" />
       <div className="heading"> Daily Activities</div>
-
       {ActivityList.map((val, key) => {
         return (
           <div className="individual">

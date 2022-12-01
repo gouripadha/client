@@ -3,30 +3,35 @@ import "./Signup.css";
 import sgn from "../images/Signup_image3.png";
 import { useState } from "react";
 import Axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [ChildName, setChildName] = useState("");
   const [ParentName, setParentName] = useState("");
   const [MedicalHistory, setMedicalHistory] = useState("");
-  const [Age, setAge] = useState(0);
+  const [Year, setYear] = useState(0);
   const [Email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const [Contact, setContact] = useState(0);
+  const navigate = useNavigate();
 
   const addUser = () => {
     Axios.post("http://localhost:3001/createuser", {
       ChildName: ChildName,
       ParentName: ParentName,
       MedicalHistory: MedicalHistory,
-      Age: Age,
+      Year: Year,
       Email: Email,
       Password: Password,
       Contact: Contact,
     })
       .then(() => {
+        navigate("/userlogin");
         console.log("success");
       })
       .catch((err) => {
+        console.log(err);
         if (err.response) alert(err.response.data.message);
       });
   };
@@ -70,9 +75,9 @@ function Signup() {
           <input
             className="Age"
             type="number"
-            placeholder="  Age"
+            placeholder="  Year"
             onChange={(event) => {
-              setAge(event.target.value);
+              setYear(event.target.value);
             }}
             required
           />

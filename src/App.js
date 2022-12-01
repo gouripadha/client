@@ -17,6 +17,7 @@ import UserLogin from "./pages/UserLogin";
 import User from "./pages/User/User";
 import Signup from "./pages/Signup";
 import UserDailyActivities from "./pages/User/UserDailyActivities";
+import UserTeacher from "./pages/User/UserTeacher";
 
 function App() {
   // this is made for the user context
@@ -39,6 +40,8 @@ function App() {
         <Route path="/admin/create/teacher" element={<AdminCreateTeacher />} />
         <Route path="/admin/doctor" element={<AdminDoctor />} />
         <Route path="/admin/teacher" element={<AdminTeacher />} />
+        <Route path="/user/teacher" element={<UserTeacher />} />
+
         <Route path="/admin/children" element={<AdminUser />} />
         <Route
           path="/admin/create/dailyactivities"

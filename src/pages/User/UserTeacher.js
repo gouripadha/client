@@ -2,14 +2,17 @@ import React from "react";
 import Axios from "axios";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "UserTeacher.css";
+import { useNavigate } from "react-router-dom";
+
+import "./UserTeacher.css";
 
 function UserTeacher(props) {
   const [TeacherList, setTeacherList] = useState([]);
+  const navigate = useNavigate();
 
   const fetchStudents = async () => {
     const response = await fetch(
-      `http://localhost:3001/userteachers/${props.age}`
+      `http://localhost:3001/userteachers/${localStorage.getItem("email")}`
     );
     const data = await response.json();
     setTeacherList(data);
@@ -18,6 +21,9 @@ function UserTeacher(props) {
     fetchStudents();
   }, []);
 
+  if (localStorage.getItem("email") == null) {
+    navigate("/userlogin");
+  }
   return (
     <div className="UserTeacher">
       <div className="Rectangle6" />
@@ -29,10 +35,10 @@ function UserTeacher(props) {
       <Link to="/user/doctor">
         <span className="Doctors">Doctors</span>
       </Link>
-      <Link to="/user/dailyactivities">
+      <Link to="/user/activities">
         <span className="DailyActivities">Daily Activities</span>
       </Link>
-      <span className="DailyActivities_1">Teachers</span>
+      <span className="DailyActivities_1">Your Teachers</span>
       <Link to="/user/profile">
         <span className="Children">Profile</span>
       </Link>
