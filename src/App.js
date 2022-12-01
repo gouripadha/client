@@ -59,7 +59,7 @@ function App() {
         <Route path="/user/update" element={<UserUpdate />} />
         <Route path="/user/caregiver" element={<UserCaregiver />} />
         <Route path="/user/bookcaregiver" element={<UserBook />} />
-        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/adminlogin" element={<AdminLogin />} />
 
         <Route path="/signup" element={<Signup />} />
         <Route path="/userlogin" element={<UserLogin />} />
