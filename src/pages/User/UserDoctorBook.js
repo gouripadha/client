@@ -1,22 +1,28 @@
 import React from "react";
+import "./UserDoctorBook.css";
 import Axios from "axios";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import "./UserDoctor.css";
+import { Link, useNavigate } from "react-router-dom";
 
-function UserDoctor() {
+function UserDoctorBook() {
   const [DoctorList, setDoctorList] = useState([]);
+  const navigator = useNavigate();
 
   const fetchStudents = async () => {
-    const response = await fetch(
-      `http://localhost:3001/yourdoctor/${localStorage.getItem("email")}`
-    );
+    const response = await fetch("http://localhost:3001/doctors");
     const data = await response.json();
     setDoctorList(data);
   };
   useEffect(() => {
     fetchStudents();
   }, []);
+
+  const updateDoctor = (doctor_id) => {
+    Axios.put("http://localhost:3001/bookdoctor", {
+      doctor_id: doctor_id,
+      email: localStorage.getItem("email"),
+    });
+  };
 
   return (
     <div className="UserDoctors">
@@ -47,6 +53,15 @@ function UserDoctor() {
             <span className="ActivityName">{val.doctor_name} </span>
             <span className="ActivitydescriptionActivitydescriptionActivitydescriptionActivitydescription">
               {val.doctor_qualifications}
+              <button
+                className="Deletebutton"
+                onClick={() => {
+                  updateDoctor(val.doctor_id);
+                  navigator("/user/doctor");
+                }}
+              >
+                Book Doctor
+              </button>{" "}
             </span>
 
             <span className="Durationxhrs">
@@ -55,11 +70,8 @@ function UserDoctor() {
           </div>
         );
       })}
-      <Link to="/user/bookdoctor">
-        <button className="Addbutton">Book Doctors</button>
-      </Link>
     </div>
   );
 }
 
-export default UserDoctor;
+export default UserDoctorBook;
