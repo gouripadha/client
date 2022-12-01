@@ -1,10 +1,18 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Axios from "axios";
+
 import "./UserUpdate.css";
 
 function UserUpdate() {
   const [UserList, setUserList] = useState([]);
+  const [newChildName, setnewChildName] = useState("");
+  const [newParentName, setnewParentName] = useState("");
+  const [newMedicalHistory, setnewMedicalHistory] = useState("");
+  const [newYear, setnewYear] = useState(0);
+
+  const [newContact, setnewContact] = useState(0);
 
   const fetchStudents = async () => {
     const response = await fetch(
@@ -16,6 +24,33 @@ function UserUpdate() {
   useEffect(() => {
     fetchStudents();
   }, []);
+
+  const updateUser = (email) => {
+    Axios.put("http://localhost:3001/update", {
+      child_name: newChildName,
+      parent_name: newParentName,
+      medical_history: newMedicalHistory,
+      year: newYear,
+      contact: newContact,
+      email: email,
+    }).then((response) => {
+      setUserList(
+        UserList.map((val) => {
+          return val.email == email
+            ? {
+                child_name: newChildName,
+                parent_name: newParentName,
+                medical_history: newMedicalHistory,
+                year: newYear,
+
+                contact: newContact,
+                email: email,
+              }
+            : val;
+        })
+      );
+    });
+  };
 
   return (
     <div className="UserUpdate">
@@ -42,23 +77,73 @@ function UserUpdate() {
       {UserList.map((val, key) => {
         return (
           <div className="individual">
-            <span className="ActivityName">{val.child_name} </span>
             <span className="ActivityIdXXX">
-              Parent Name: {val.parent_name}
+              Child Name:{" "}
+              <input
+                type="text"
+                placeholder={val.child_name}
+                onChange={(event) => {
+                  setnewChildName(event.target.value);
+                }}
+                required
+              />
             </span>
             <span className="ActivityIdXXX">
-              Medical History: {val.medical_history}
+              Parent Name:{" "}
+              <input
+                className="Parent"
+                type="text"
+                placeholder={val.parent_name}
+                onChange={(event) => {
+                  setnewParentName(event.target.value);
+                }}
+                required
+              />
             </span>
-            <span className="ActivityIdXXX">Birth Year: {val.year} </span>
-
-            <span className="ActivityIdXXX">Email: {val.email} </span>
-            <span className="ActivityIdXXX">Contact: {val.contact} </span>
+            <span className="ActivityIdXXX">
+              Medical History:{" "}
+              <input
+                type="text"
+                placeholder={val.medical_history}
+                onChange={(event) => {
+                  setnewMedicalHistory(event.target.value);
+                }}
+                required
+              />
+            </span>
+            <span className="ActivityIdXXX">
+              Year:{" "}
+              <input
+                type="number"
+                placeholder={val.year}
+                onChange={(event) => {
+                  setnewYear(event.target.value);
+                }}
+                required
+              />
+            </span>
+            <span className="ActivityIdXXX">
+              Contact:{" "}
+              <input
+                type="number"
+                placeholder={val.contact}
+                onChange={(event) => {
+                  setnewContact(event.target.value);
+                }}
+                required
+              />
+            </span>
+            <button
+              className="Addbutton"
+              onClick={() => {
+                updateUser(val.email);
+              }}
+            >
+              Update
+            </button>
           </div>
         );
       })}
-      <Link to="/user/update">
-        <button className="Addbutton">Update Profile</button>
-      </Link>
     </div>
   );
 }

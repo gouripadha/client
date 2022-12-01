@@ -19,6 +19,7 @@ import Signup from "./pages/Signup";
 import UserDailyActivities from "./pages/User/UserDailyActivities";
 import UserTeacher from "./pages/User/UserTeacher";
 import UserProfile from "./pages/User/UserProfile";
+import UserUpdate from "./pages/User/UserUpdate";
 
 function App() {
   // this is made for the user context
@@ -50,6 +51,7 @@ function App() {
         />
         <Route path="/user/activities" element={<UserDailyActivities />} />
         <Route path="/user/profile" element={<UserProfile />} />
+        <Route path="/user/update" element={<UserUpdate />} />
 
         <Route path="/signup" element={<Signup />} />
         <Route path="/userlogin" element={<UserLogin />} />
