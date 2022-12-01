@@ -8,7 +8,7 @@ function UserBook() {
   const [CaregiverList, setCaregiverList] = useState([]);
 
   const fetchStudents = async () => {
-    const response = await fetch("http://localhost:3001/bookcaregiver");
+    const response = await fetch("http://localhost:3001/caregivers");
     const data = await response.json();
     setCaregiverList(data);
   };
@@ -38,7 +38,7 @@ function UserBook() {
       </Link>
       <div className="spacer" />
 
-      <span className="DailyActivities_1"> Caregivers</span>
+      <span className="DailyActivities_1">Book Caregivers</span>
 
       {CaregiverList.map((val, key) => {
         return (
@@ -54,9 +54,6 @@ function UserBook() {
           </div>
         );
       })}
-      <Link to="/user/bookcaregiver">
-        <button className="Addbutton">Book Caregiver</button>
-      </Link>
     </div>
   );
 }
