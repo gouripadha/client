@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./UserProfile.css";
 
 function UserProfile() {
@@ -16,6 +16,13 @@ function UserProfile() {
   useEffect(() => {
     fetchStudents();
   }, []);
+
+  // navigate to home page
+  const navigate = useNavigate();
+  const logout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
 
   return (
     <div className="UserProfile">
@@ -59,7 +66,9 @@ function UserProfile() {
       <Link to="/user/update">
         <button className="Addbutton">Update Profile</button>
       </Link>
-      <button className="Deletebutton">Log Out</button>
+      <button className="Deletebutton" onClick={logout}>
+        Log Out
+      </button>
     </div>
   );
 }
