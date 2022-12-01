@@ -4,7 +4,7 @@ import "./UserLogin.css";
 // import { UserContext } from "./../UserContext";
 import sgn from "../images/UserLogin_image4.png";
 import { useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Axios from "axios";
 
 function UserLogin() {
@@ -58,7 +58,9 @@ function UserLogin() {
           />
         </form>
 
-        <span className="AlreadyAMemberLogIn">Not Registered? Sign up</span>
+        <span className="AlreadyAMemberLogIn">
+          Not Registered? <Link to="/signup">Sign up</Link>{" "}
+        </span>
       </div>
       <img className="image3" src={sgn} />
     </div>

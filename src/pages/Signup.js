@@ -3,7 +3,7 @@ import "./Signup.css";
 import sgn from "../images/Signup_image3.png";
 import { useState } from "react";
 import Axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 function Signup() {
   const [ChildName, setChildName] = useState("");
@@ -112,7 +112,9 @@ function Signup() {
           />
         </form>
 
-        <span className="AlreadyAMemberLogIn">Already A Member? Log In</span>
+        <span className="AlreadyAMemberLogIn">
+          Already A Member? <Link to="/userlogin">Log In</Link>
+        </span>
       </div>
       <img className="image3" src={sgn} />
     </div>
