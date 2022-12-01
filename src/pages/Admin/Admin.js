@@ -22,6 +22,9 @@ function Admin() {
       <Link to="/admin/children">
         <span className="Children">Children</span>
       </Link>
+      <button type="submit" className="Addbutton">
+        Log Out
+      </button>
     </div>
   );
 }
