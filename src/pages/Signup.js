@@ -4,7 +4,6 @@ import sgn from "../images/Signup_image3.png";
 import { useState } from "react";
 import Axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 function Signup() {
   const [ChildName, setChildName] = useState("");
@@ -17,15 +16,19 @@ function Signup() {
   const navigate = useNavigate();
 
   const addUser = () => {
-    Axios.post("http://localhost:3001/createuser", {
-      ChildName: ChildName,
-      ParentName: ParentName,
-      MedicalHistory: MedicalHistory,
-      Year: Year,
-      Email: Email,
-      Password: Password,
-      Contact: Contact,
-    })
+    Axios.post(
+      "http://localhost:3001/createuser",
+      {
+        ChildName: ChildName,
+        ParentName: ParentName,
+        MedicalHistory: MedicalHistory,
+        Year: Year,
+        Email: Email,
+        Password: Password,
+        Contact: Contact,
+      },
+      { timeout: 10000 }
+    )
       .then(() => {
         navigate("/userlogin");
         console.log("success");
