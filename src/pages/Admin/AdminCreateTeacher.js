@@ -9,6 +9,7 @@ function AdminCreateTeacher() {
   const [Qualification, setQualification] = useState("");
   const [Subject, setSubject] = useState("");
   const [AgeGroup, setAgeGroup] = useState(0);
+  const [Aid, setAidGroup] = useState(0);
 
   const addTeacher = () => {
     Axios.post("http://localhost:3001/createteacher", {
@@ -16,6 +17,7 @@ function AdminCreateTeacher() {
       Qualification: Qualification,
       Subject: Subject,
       AgeGroup: AgeGroup,
+      Aid: Aid,
     }).then(() => {
       console.log("success");
     });
@@ -71,6 +73,13 @@ function AdminCreateTeacher() {
           type="number"
           onChange={(event) => {
             setAgeGroup(event.target.value);
+          }}
+        />
+        <label>Activity Id</label>
+        <input
+          type="number"
+          onChange={(event) => {
+            setAidGroup(event.target.value);
           }}
         />
 

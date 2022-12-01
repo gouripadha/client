@@ -8,7 +8,9 @@ import "./UserDailyActivities.css";
 function UserDailyActivities() {
   const [ActivityList, setActivityList] = useState([]);
   const fetchStudents = async () => {
-    const response = await fetch("http://localhost:3001/activities");
+    const response = await fetch(
+      `http://localhost:3001/useractivities/${localStorage.getItem("email")}`
+    );
     const data = await response.json();
     setActivityList(data);
   };
