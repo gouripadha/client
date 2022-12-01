@@ -8,7 +8,7 @@ function UserBook() {
   const [CaregiverList, setCaregiverList] = useState([]);
 
   const fetchStudents = async () => {
-    const response = await fetch("http://localhost:3001/usercaregiver");
+    const response = await fetch("http://localhost:3001/bookcaregiver");
     const data = await response.json();
     setCaregiverList(data);
   };

@@ -23,6 +23,7 @@ import UserUpdate from "./pages/User/UserUpdate";
 import UserDoctor from "./pages/User/UserDoctor";
 import UserCaregiver from "./pages/User/UserCaregiver";
 import UserBook from "./pages/User/UserBook";
+import AdminLogin from "./pages/AdminLogin";
 
 function App() {
   // this is made for the user context
@@ -58,6 +59,7 @@ function App() {
         <Route path="/user/update" element={<UserUpdate />} />
         <Route path="/user/caregiver" element={<UserCaregiver />} />
         <Route path="/user/bookcaregiver" element={<UserBook />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
 
         <Route path="/signup" element={<Signup />} />
         <Route path="/userlogin" element={<UserLogin />} />
