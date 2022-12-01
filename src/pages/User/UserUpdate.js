@@ -1,9 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./UserProfile.css";
+import "./UserUpdate.css";
 
-function UserProfile() {
+function UserUpdate() {
   const [UserList, setUserList] = useState([]);
 
   const fetchStudents = async () => {
@@ -18,7 +18,7 @@ function UserProfile() {
   }, []);
 
   return (
-    <div className="UserProfile">
+    <div className="UserUpdate">
       <div className="Rectangle6" />
       <span className="BabyOwls">BabyOwls.</span>
       <Link to="/user/caregiver">
@@ -63,4 +63,4 @@ function UserProfile() {
   );
 }
 
-export default UserProfile;
+export default UserUpdate;

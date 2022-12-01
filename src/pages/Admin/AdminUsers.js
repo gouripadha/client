@@ -15,12 +15,12 @@ function AdminUser() {
     fetchStudents();
   }, []);
 
-  const deleteUser = (child_id) => {
-    Axios.delete(`http://localhost:3001/deletechild/${child_id}`).then(
+  const deleteUser = (email) => {
+    Axios.delete(`http://localhost:3001/deletechild/${email}`).then(
       (response) => {
         setUserList(
           UserList.filter((val) => {
-            return val.child_id !== child_id;
+            return val.email !== email;
           })
         );
       }
@@ -58,17 +58,14 @@ function AdminUser() {
               Medical History: {val.medical_history}
             </span>
             <span className="ActivityIdXXX">Birth Year: {val.year} </span>
-            <span className="ActivityIdXXX">User Id: U{val.child_id}</span>
 
-            <span className="ActivityIdXXX">Caregiver Id: C{val.cid}</span>
-            <span className="ActivityIdXXX">Doctor Id: D{val.cid}</span>
             <span className="ActivityIdXXX">Email: {val.email} </span>
             <span className="ActivityIdXXX">Contact: {val.contact} </span>
 
             <button
               className="Deletebutton"
               onClick={() => {
-                deleteUser(val.child_id);
+                deleteUser(val.email);
               }}
             >
               Delete User
