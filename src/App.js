@@ -58,7 +58,7 @@ function App() {
         <Route path="/user/profile" element={<UserProfile />} />
         <Route path="/user/update" element={<UserUpdate />} />
         <Route path="/user/caregiver" element={<UserCaregiver />} />
-        <Route path="/user/bookcaregiver" element={<UserBook />} />
+        <Route path="/user/book" element={<UserBook />} />
         <Route path="/adminlogin" element={<AdminLogin />} />
 
         <Route path="/signup" element={<Signup />} />
