@@ -8,7 +8,10 @@ function UserCaregiver() {
   const [CaregiverList, setCaregiverList] = useState([]);
 
   const fetchStudents = async () => {
-    const response = await fetch("http://localhost:3001/usercaregiver");
+    const response = await fetch(
+      `http://localhost:3001/usercaregiver/${localStorage.getItem("email")}`
+    );
+    console.log(response);
     const data = await response.json();
     setCaregiverList(data);
   };
@@ -54,6 +57,9 @@ function UserCaregiver() {
           </div>
         );
       })}
+      <Link to="/user/book">
+        <button className="Addbutton">Book Caregivers</button>
+      </Link>
     </div>
   );
 }
