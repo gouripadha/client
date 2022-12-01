@@ -36,9 +36,7 @@ function Home() {
         <Link to="/signup">
           <span className="Signup">Sign up</span>
         </Link>
-        <Link to="/">
-          <span className="Gallery">Gallery</span>
-        </Link>
+
         <Link to="/">
           <span className="AdminLogin">Admin Login</span>
         </Link>

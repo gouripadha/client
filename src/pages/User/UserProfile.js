@@ -1,10 +1,17 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./UserProfile.css";
 
 function UserProfile() {
   const [UserList, setUserList] = useState([]);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("email") == null) {
+      navigate("/userlogin");
+    }
+  }, []);
 
   const fetchStudents = async () => {
     const response = await fetch(
@@ -18,9 +25,8 @@ function UserProfile() {
   }, []);
 
   // navigate to home page
-  const navigate = useNavigate();
   const logout = () => {
-    localStorage.clear();
+    localStorage.removeItem("email");
     navigate("/");
   };
 
@@ -41,7 +47,7 @@ function UserProfile() {
         <span className="DailyActivities">Daily Activities</span>
       </Link>
       <span className="DailyActivities_1">Profile</span>
-      <Link to="/user/children">
+      <Link to="/user/profile">
         <span className="Children">Profile</span>
       </Link>
       <div className="spacer" />

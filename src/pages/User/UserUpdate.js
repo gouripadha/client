@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 import Axios from "axios";
 
 import "./UserUpdate.css";
@@ -13,6 +15,12 @@ function UserUpdate() {
   const [newYear, setnewYear] = useState(0);
 
   const [newContact, setnewContact] = useState(0);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("email") == null) {
+      navigate("/userlogin");
+    }
+  }, []);
 
   const fetchStudents = async () => {
     const response = await fetch(
@@ -70,7 +78,7 @@ function UserUpdate() {
         <span className="DailyActivities">Daily Activities</span>
       </Link>
       <span className="DailyActivities_1">Profile</span>
-      <Link to="/user/children">
+      <Link to="/user/profile">
         <span className="Children">Profile</span>
       </Link>
       <div className="spacer" />

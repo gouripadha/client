@@ -1,8 +1,17 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./User.css";
 
 function User() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (localStorage.getItem("email") == null) {
+      navigate("/userlogin");
+    }
+  }, []);
   return (
     <div className="User">
       <div className="Rectangle6" />
