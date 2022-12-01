@@ -2,11 +2,11 @@ import React from "react";
 import "./UserBook.css";
 import Axios from "axios";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function UserBook() {
   const [CaregiverList, setCaregiverList] = useState([]);
-
+  const navigator = useNavigate();
   const fetchStudents = async () => {
     const response = await fetch("http://localhost:3001/caregivers");
     const data = await response.json();
@@ -16,6 +16,12 @@ function UserBook() {
     fetchStudents();
   }, []);
 
+  const updateCaregiver = (caregiver_id) => {
+    Axios.put("http://localhost:3001/bookcaregiver", {
+      caregiver_id: caregiver_id,
+      email: localStorage.getItem("email"),
+    });
+  };
   return (
     <div className="UserCaregiver">
       <div className="Rectangle6" />
@@ -50,7 +56,18 @@ function UserBook() {
             </span>
             <span className="ActivityIdXXX">Shift End: {val.shift_end}</span>
 
-            <span className="Durationxhrs">Room: {val.Room} </span>
+            <span className="Durationxhrs">
+              Room: {val.Room}
+              <button
+                className="Deletebutton"
+                onClick={() => {
+                  updateCaregiver(val.caregiver_id);
+                  navigator("/user/caregiver");
+                }}
+              >
+                Book Caregiver
+              </button>{" "}
+            </span>
           </div>
         );
       })}
