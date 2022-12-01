@@ -31,7 +31,9 @@ function AdminDailyActivities() {
   return (
     <div className="AdminDailyActivities">
       <div className="Rectangle6" />
-      <div className="BabyOwls">BabyOwls.</div>
+      <Link to="/admin">
+        <span className="BabyOwls">BabyOwls.</span>
+      </Link>
       <Link to="/admin/teacher">
         <div className="Teachers">Teachers</div>
       </Link>

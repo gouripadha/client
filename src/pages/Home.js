@@ -37,7 +37,7 @@ function Home() {
           <span className="Signup">Sign up</span>
         </Link>
 
-        <Link to="/">
+        <Link to="/adminlogin">
           <span className="AdminLogin">Admin Login</span>
         </Link>
       </div>

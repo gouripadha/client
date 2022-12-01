@@ -30,7 +30,9 @@ function AdminUser() {
   return (
     <div className="AdminUser">
       <div className="Rectangle6" />
-      <span className="BabyOwls">BabyOwls.</span>
+      <Link to="/admin">
+        <span className="BabyOwls">BabyOwls.</span>
+      </Link>
       <span className="Teachers">Teachers</span>
       <Link to="/admin/caregiver">
         <span className="CareTakers">Caregivers</span>

@@ -22,7 +22,9 @@ export default function AdminCreateDailyActivities() {
   return (
     <div className="AdminCreateDailyActivities_AdminCreateDailyActivities">
       <div className="Rectangle6" />
-      <span className="BabyOwls">BabyOwls.</span>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
       <Link to="/admin/teacher">
         <span className="Teachers">Teachers</span>
       </Link>

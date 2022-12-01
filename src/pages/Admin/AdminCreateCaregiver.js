@@ -24,7 +24,9 @@ function AdminCreateCaregiver() {
   return (
     <div className="AdminCreateCaregiver">
       <div className="Rectangle6" />
-      <span className="BabyOwls">BabyOwls.</span>
+      <Link to="/admin/caregiver">
+        <span className="CareTakers">Caregivers</span>
+      </Link>
       <Link to="/admin/caregiver">
         <span className="CareTakers">Caregivers</span>
       </Link>
