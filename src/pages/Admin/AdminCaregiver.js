@@ -48,6 +48,7 @@ function AdminCaregiver() {
       <Link to="/admin/children">
         <span className="Children">Children</span>
       </Link>
+      <button className="Children">Log Out</button>
       <div className="spacer" />
 
       <span className="DailyActivities_1">Caregivers</span>
