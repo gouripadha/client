@@ -26,7 +26,7 @@ function UserUpdate() {
   }, []);
 
   const updateUser = (email) => {
-    Axios.put("http://localhost:3001/update", {
+    Axios.put("http://localhost:3001/updateuser", {
       child_name: newChildName,
       parent_name: newParentName,
       medical_history: newMedicalHistory,
@@ -34,6 +34,7 @@ function UserUpdate() {
       contact: newContact,
       email: email,
     }).then((response) => {
+      console.log(response);
       setUserList(
         UserList.map((val) => {
           return val.email == email
@@ -81,7 +82,7 @@ function UserUpdate() {
               Child Name:{" "}
               <input
                 type="text"
-                placeholder={val.child_name}
+                defaultValue={val.child_name}
                 onChange={(event) => {
                   setnewChildName(event.target.value);
                 }}
@@ -93,7 +94,7 @@ function UserUpdate() {
               <input
                 className="Parent"
                 type="text"
-                placeholder={val.parent_name}
+                defaultValue={val.parent_name}
                 onChange={(event) => {
                   setnewParentName(event.target.value);
                 }}
@@ -104,7 +105,7 @@ function UserUpdate() {
               Medical History:{" "}
               <input
                 type="text"
-                placeholder={val.medical_history}
+                defaultValue={val.medical_history}
                 onChange={(event) => {
                   setnewMedicalHistory(event.target.value);
                 }}
@@ -115,7 +116,7 @@ function UserUpdate() {
               Year:{" "}
               <input
                 type="number"
-                placeholder={val.year}
+                defaultValue={val.year}
                 onChange={(event) => {
                   setnewYear(event.target.value);
                 }}
@@ -126,7 +127,7 @@ function UserUpdate() {
               Contact:{" "}
               <input
                 type="number"
-                placeholder={val.contact}
+                defaultValue={val.contact}
                 onChange={(event) => {
                   setnewContact(event.target.value);
                 }}
